@@ -1,0 +1,49 @@
+* {
+	font-family: 'Bowlby One SC', cursive;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+p {
+	padding: 3px;
+}
+
+#image {
+	z-index: 10;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.flexContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	position: flex;
+	text-align: center;
+	width: 4 rem;
+	height: 3.5 rem;
+	border: solid black;
+}
+
+.button:hover {
+	background-color: salmon;
+}
+
+#countDownArea {
+	color: red;
+	text-align: center;
+}
+
+canvas {
+	display: block;
+	margin: 0 auto;
+	border: solid 1px black;
+	background: salmon;
+}

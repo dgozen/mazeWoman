@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Maze Woman</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body id="body">
+		<h1 id="h1">Maze Woman</h1>
+		<div id="flexContainer" class="flexContainer">
+			<div id="informationArea">
+				<p>You are blue trying to eat the green... <br />Click to start.</p>
+				<p>
+					20 seconds ==>
+					<input
+						type="button"
+						class="button"
+						id="button"
+						value="START!"
+						onclick="setTimer() "
+					/>
+				</p>
+				<div id="countDownArea"></div>
+				<h3 id="score">Score:</h3>
+			</div>
+
+			<div id="gameContainer" class="game_container">
+				<canvas id="canvas" width="500" height="500"></canvas>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
